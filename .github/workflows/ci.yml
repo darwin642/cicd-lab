@@ -50,7 +50,6 @@ jobs:
         run: docker pull ghcr.io/${{ github.repository }}:latest
 
       - name: Deploy container
-        shell: pwsh
         run: |
           docker rm -f cicd-cd 2>$null
           docker run -d --name cicd-cd -p 8086:80 ghcr.io/${{ github.repository }}:latest
