@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "darwin642/cicd-lab",
+  "pipelineDirectory": "cicd-lab",
+  "workspaceDirectory": "cicd-lab\\cicd-lab",
+  "repositories": {
+    "darwin642/cicd-lab": {
+      "repositoryPath": "cicd-lab\\cicd-lab",
+      "lastRunOn": "09/27/2026 23:02:30 +03:00"
+    }
+  },
+  "lastRunOn": "09/27/2026 23:04:25 +03:00"
+}
